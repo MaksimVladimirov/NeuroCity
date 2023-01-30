@@ -1,0 +1,11 @@
+* {
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+.square {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	margin: 10px;
+}
