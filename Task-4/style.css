@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(168, 211, 234);
+}
+
+#user-list {
+  padding-top: 40px;
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  margin: 0 auto;
+}
+
+#pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.card__item {
+  height: 280px;
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  background-color: rgb(216, 219, 222);
+}
+
+.card__item:hover {
+  background-color: rgb(224, 227, 231);
+}
+
+button {
+  width: 30px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+button:last-child {
+  margin: 0;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(243, 193, 86);
+}
+
+a {
+  text-decoration: none;
+  color: tomato;
+}
+
+a:hover {
+  color: rgb(237, 44, 10);
+}
