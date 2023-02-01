@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./styles.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<form id="myForm">
+				
+				<div class="name">
+					<label for="name">Имя:</label>
+					<input
+					placeholder="Введите имя...."
+					type="text"
+					id="name"
+					name="name"
+					required
+					pattern="[a-zA-Zа-яА-Я]{3,30}"
+					/>
+				</div>
+
+				<div class="phone">
+					<label for="phone">Телефон:</label>
+					<input
+						placeholder="Введите номер телефона..."
+						type="text"
+						id="phone"
+						name="phone"
+						required
+						pattern="\+?[0-9]{10,15}"
+					/>
+				</div>
+
+				<div class="password">
+					<label for="password">Пароль:</label>
+					<input
+						placeholder="Введите пароль..."
+						type="password"
+						id="password"
+						name="password"
+						required
+						pattern="(?=.*[A-Z])(?=.*[0-9]).{8,40}"
+					/>
+				</div>
+				
+				<div class="repeatPassword">
+					<label for="repeatPassword">Повторите пароль:</label>
+					<input
+						placeholder="Повторите пароль..."
+						type="password"
+						id="repeatPassword"
+						name="repeatPassword"
+						required
+					/>
+				</div>
+
+				<input type="submit" value="Submit" onclick="return validateForm()" />
+			</form>
+			<br />
+			<div id="error" class="error"></div>
+		</div>
+
+		<script src="./app.js"></script>
+	</body>
+</html>

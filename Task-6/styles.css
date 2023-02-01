@@ -1,0 +1,45 @@
+input::placeholder {
+	 width: 200px;
+	 padding: 10px;
+}
+
+
+#myForm {
+	padding: 10px;
+	margin: 0 auto;
+	border-radius: 10px;
+	border: 1px solid black;
+	height: 300px;
+	width: 400px;
+}
+
+.name {
+	border: 1px solid black;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+.name::placeholder {
+	width: 200px;
+}
+
+.phone {
+	border: 1px solid black;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+.password {
+	border: 1px solid black;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+.repeatPassword {
+	border: 1px solid black;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
